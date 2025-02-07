@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virus Informáticos: Nuestro Equipo</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom right, #b3e0ff, #e6f7ff);
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            text-decoration: underline;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 5px;
+        }
+        .authors {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #004085;
+            margin-top: 10px;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        section, .info-section, .team-member {
+            background: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        h2 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        .team-member h2 {
+            text-decoration: underline;
+        }
+        footer {
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        .virus-types {
+            margin: 20px 0;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        .protection-tips {
+            margin: 20px 0;
+            padding: 15px;
+            background: #e9ecef;
+            border-radius: 8px;
+        }
+        .impact-section {
+            margin: 20px 0;
+            padding: 15px;
+            background: #f1f8ff;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Virus Informáticos: Nuestro Equipo</h1>
+        <p>Estudiando las amenazas digitales más peligrosas del mundo.</p>
+        <div class="authors">
+            <p>Hairan S. Estrada C., Treysi G. Mendoza C., Enzo R. Huamaco T., Brendha I. Castro H.</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <section>
+            <h2>Introducción</h2>
+            <p>
+                Este proyecto se centra en la investigación y análisis de los virus informáticos más peligrosos que amenazan la seguridad digital a nivel mundial. 
+                Nuestro equipo multidisciplinario busca comprender mejor estos programas maliciosos para contribuir a la prevención y protección de los sistemas informáticos,
+                así como su impacto en diferentes ámbitos de la sociedad.
+            </p>
+        </section>
+        
+        <section class="info-section">
+            <h2>Tipos de Virus Informáticos</h2>
+            <div class="virus-types">
+                <h3>1. Virus de Archivo Ejecutable</h3>
+                <p>Se adhieren a archivos .exe y otros ejecutables, activándose cuando el archivo infectado se ejecuta.</p>
+                
+                <h3>2. Troyanos</h3>
+                <p>Se disfrazan como software legítimo para engañar a los usuarios y obtener acceso no autorizado al sistema.</p>
+                
+                <h3>3. Ransomware</h3>
+                <p>Cifra los archivos del usuario y exige un pago para recuperar el acceso. Ejemplos notables incluyen WannaCry y Petya.</p>
+                
+                <h3>4. Gusanos Informáticos</h3>
+                <p>Se propagan automáticamente a través de redes, explotando vulnerabilidades en los sistemas operativos.</p>
+                
+                <h3>5. Spyware</h3>
+                <p>Recopila información del usuario sin su consentimiento, como contraseñas y datos bancarios.</p>
+                
+                <h3>6. Bootkit</h3>
+                <p>Infectan el sector de arranque del sistema, siendo especialmente difíciles de detectar y eliminar.</p>
+            </div>
+        </section>
+
+        <section class="info-section">
+            <h2>Medidas de Protección</h2>
+            <div class="protection-tips">
+                <h3>Prevención Básica:</h3>
+                <ul>
+                    <li>Mantener el software antivirus actualizado</li>
+                    <li>Realizar copias de seguridad regulares</li>
+                    <li>No abrir correos electrónicos sospechosos</li>
+                    <li>Evitar descargar archivos de fuentes no confiables</li>
+                    <li>Mantener el sistema operativo actualizado</li>
+                </ul>
+
+                <h3>Prácticas Avanzadas:</h3>
+                <ul>
+                    <li>Implementar firewalls de nueva generación</li>
+                    <li>Utilizar autenticación de dos factores</li>
+                    <li>Cifrar datos sensibles</li>
+                    <li>Segmentar redes para contener posibles infecciones</li>
+                    <li>Realizar auditorías de seguridad periódicas</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="info-section">
+            <h2>Impacto Global</h2>
+            <div class="impact-section">
+                <h3>Impacto Económico</h3>
+                <p>Los virus informáticos causan pérdidas millonarias anuales a empresas y gobiernos. El costo global del cibercrimen se estima en trillones de dólares.</p>
+
+                <h3>Impacto Social</h3>
+                <p>Afectan servicios esenciales como hospitales, bancos y sistemas de transporte, comprometiendo la seguridad y bienestar social.</p>
+
+                <h3>Tendencias Actuales</h3>
+                <p>Aumento en ataques dirigidos a infraestructuras críticas y dispositivos IoT. Evolución hacia técnicas más sofisticadas de evasión de seguridad.</p>
+            </div>
+        </section>
+        
+        <div class="team-member">
+            <h2>Hairan Stanis Estrada Calla</h2>
+            <p><strong>Carrera:</strong> Psicología</p>
+            <p><strong>Interés:</strong> Análisis del comportamiento de usuarios frente a amenazas digitales, ingeniería social y prevención</p>
+            <p><strong>Enfoque:</strong> Estudio de patrones psicológicos en víctimas de ciberataques y desarrollo de estrategias de concientización</p>
+        </div>
+        
+        <div class="team-member">
+            <h2>Treysi Gabriela Mendoza Cortez</h2>
+            <p><strong>Carrera:</strong> Medicina Humana</p>
+            <p><strong>Interés:</strong> Impacto de los ciberataques en sistemas de salud y registros médicos electrónicos</p>
+            <p><strong>Enfoque:</strong> Protección de datos médicos y continuidad de servicios sanitarios frente a amenazas digitales</p>
+        </div>
+        
+        <div class="team-member">
+            <h2>Enzo Rivelino Huamaco Ticona</h2>
+            <p><strong>Carrera:</strong> Derecho</p>
+            <p><strong>Interés:</strong> Marco legal de ciberseguridad y delitos informáticos</p>
+            <p><strong>Enfoque:</strong> Análisis de legislación internacional sobre cibercrimen y protección de datos</p>
+        </div>
+        
+        <div class="team-member">
+            <h2>Brendha Ignacia Castro Huaman</h2>
+            <p><strong>Carrera:</strong> Ingeniería Ambiental</p>
+            <p><strong>Interés:</strong> Seguridad en sistemas de control ambiental y protección de infraestructuras críticas</p>
+            <p><strong>Enfoque:</strong> Evaluación de riesgos en sistemas de monitoreo ambiental y gestión de recursos</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Universidad Andina del Cusco - CENFOTI. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
